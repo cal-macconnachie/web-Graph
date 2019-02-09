@@ -1,0 +1,62 @@
+/*here the elements are organized into a way that makes the tool a bit easier to use and makes in more visually pleasing*/
+.textbox{
+    position: absolute;
+    font-family: "Arial";
+}
+#title{
+    
+}
+#xLabel{
+    top: 5.5%;
+}
+#yLabel{
+    top: 10%;
+}
+#csvFile{
+    position: absolute;
+    top: 15%;
+    font-family: "Arial";
+}
+#submit{
+    position: absolute;
+    top: 20%;
+    font-family: "Arial";
+}
+#save{
+    position: absolute;
+    top: 35%;
+}
+#sLabel{
+    position: absolute;
+    top: 30%;
+    font-family: "Arial";
+}
+#instructions{
+    position: absolute;
+    top: 38%;
+    width: 15%;
+    font-family: "Arial";
+}
+#errBox{
+    position: absolute;
+    width: auto;
+    height: 5%;
+    top: 25%;
+    color: red;
+    font-family: "Arial";
+}
+#background{
+    width: 100%;
+    height: 100%;
+    position: 
+}
+#chartContainer{
+    position: absolute;
+    border: none;
+    left: 20%;
+    width: 75%;
+    height: 80%;
+    background-image: url(bckgrnd.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

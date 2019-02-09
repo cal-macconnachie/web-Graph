@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- bringing in all the necessary dependancies to create graphs as well as my javascript file -->
+        <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="lookinggood.css">
+        <title>Upload to graph</title>
+    </head>
+    <body>
+    <div id="background">
+    <!-- creating all the elements for the user to use -->
+    <input type="file" id="csvFile" accept="text/csv" onchange="openFile(event)">
+    <input type="text" id="title" accept="text/plain" placeholder="Graph Title" class="textbox">
+    <input type="text" id="xLabel" accept="text/plain" placeholder="X Axis Label" class="textbox">
+    <input type="text" id="yLabel" accept="text/plain" placeholder="Y Axis Label" class="textbox">
+    <input type="button" id="submit" value="Submit" onclick="plot()">
+    <div id="errBox"></div>
+    <input type="checkbox" id="save" value="Save">
+    <label for="save" id="sLabel">Check box to save</label>
+    <!-- instructions for the data set -->
+    <p id=instructions>The data sets submitted must be of the form x,y in two columns with no text</p>
+    <div id="chartContainer"></div>
+    </div>
+    </body>
+</html>
